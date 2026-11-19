@@ -11,3 +11,15 @@ run it locally with fake data:
 ```bash
 python sky.py --demo sky.svg
 ```
+
+## want one?
+
+1. fork this repo
+2. go to the Actions tab, enable workflows, and run **Contribution sky** once
+3. add this to your profile README (swap in your username):
+
+```html
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/contribution-sky/output/contribution-sky.svg" width="100%">
+```
+
+it redraws itself every night.
