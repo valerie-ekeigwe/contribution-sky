@@ -17,7 +17,7 @@ jobs:
       - name: Draw the sky
         run: |
           mkdir -p dist
-          python sky.py valerie-ekeigwe dist/contribution-sky.svg
+          python sky.py ${{ github.repository_owner }} dist/contribution-sky.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
